@@ -3,8 +3,8 @@ import { useState } from "react"
 import "./index.css"
 function Random()
 {
-    const [minVal, setMinVal] = useState(0)
-    const [maxVal, setMaxVal] = useState(100)
+    const [minVal, setMinVal] = useState()
+    const [maxVal, setMaxVal] = useState()
     const [random, setrandom] = useState()
 
     const handlemin=(evnt)=>
