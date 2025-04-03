@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.main{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#f9ada4;
+    display: flex;
+}
+.cont{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #C6B9FF;
+  border: 2px solid black;
+  border-radius: 18px;
+}
+.random{
+    background:#6A9CF5;
+    padding: 20px;
+    box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+    -moz-box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+    color: #1d090b;
+    border: solid black 2px;
+    border-radius: 19px;
+}
+.random p{
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+.random span{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.num-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    width: 100%;
+   
+}
+.num-cont div input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: rgb(94, 93, 93);
+    border: solid black 2px;
+    border-radius: 19px;
+    background: #f4e9c1;
+border: solid rgb(109, 106, 106) 2px;
+    
+}
+.num-cont div input:hover{
+    box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+-webkit-box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+-moz-box-shadow: 3px 3px 16px -2px rgba(0,0,0,0.71);
+color: rgb(12, 11, 11);
+border: solid black 2px;
+border-radius: 19px;
+background: #FFC701
+
+}
+.cont button{
+    align-self: flex-end;
+    border: none;
+    outline: none;
+    background: #f9744c;
+    border: solid black 2px;
+    border-radius: 18px;
+    color: rgb(16, 16, 1);
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
